@@ -1,0 +1,180 @@
+body {
+    background-color:#0766AD;
+    text-align: center;
+    color: white;
+}
+
+.nav {
+    gap: 20px;
+    --bs-nav-link-hover-color : white;
+}
+.nav-link {
+    color: gray;
+    margin-right: 30px;
+   
+}
+
+.float-md-start {
+    color: white;
+}
+
+.active {
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.span {
+    font-size: 50px;
+}
+
+.px-3 {
+   align-content: center;
+   margin-top: 100px;
+   margin: 100px auto;
+   justify-content: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+p {
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+.background-image {
+    background-color: white;
+}
+
+
+
+
+p {
+    text-align: left;
+}
+
+
+
+.btn-lg {
+    font-size: 24px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+p {
+    text-align: left;
+}
+
+#footer {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .text-center {
+        max-width: 90%;
+    }
+}
+
+
+
+/* down below*/
+
+p {
+    margin-left: 40px;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+h4 {
+    padding-left: 50px;
+}
+
+h6 {
+    padding-left: 50px;
+}
+
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#left {
+    display: inline-block;
+    width: 300px;
+    height: 900px;
+    background-color: #C5E898;
+    padding-top: 5px;
+    vertical-align: top;
+    flex-shrink: 1;
+}
+
+#right {
+    display: inline-block;
+    width: 600px;
+    height: 900px;
+    background-color: #29ADB2;
+    padding-top: 5px;
+    text-align: left;
+    vertical-align: top;
+    flex-shrink: 1;
+    }
+
+.resume {
+    margin-top: 5px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.cover-container {
+    align-content: center;
+    width: 100vh;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.cover-container {
+    text-align: center;
+    margin-left: 450px;
+}
+
